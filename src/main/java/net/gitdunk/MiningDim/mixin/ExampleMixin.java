@@ -1,6 +1,6 @@
-package net.gitdunk.miningdim.mixin;
+package net.gitdunk.MiningDim.mixin;
 
-import net.gitdunk.miningdim.MiningDim;
+import net.gitdunk.MiningDim.MiningDim;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

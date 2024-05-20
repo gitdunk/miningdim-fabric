@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.gitdunk.miningdim.MiningDim"
+      "net.gitdunk.miningdim.miningdim"
     ]
   },
   "mixins": [

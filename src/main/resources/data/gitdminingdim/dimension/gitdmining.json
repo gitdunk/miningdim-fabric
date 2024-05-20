@@ -1,0 +1,35 @@
+{
+  "type": "gitdminingdim:gitdmining",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "ore_veins_enabled": true,
+      "layers": [
+        {
+          "block": "minecraft:grass_block",
+          "height": 255
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 254
+        },
+        {
+          "block": "minecraft:deepslate",
+          "height": 190
+        },
+        {
+          "block": "minecraft:netherrack",
+          "height": 126
+        },
+        {
+          "block": "minecraft:end_stone",
+          "height": 62
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

@@ -3,6 +3,7 @@ package net.gitdunk.MiningDim;
 import net.fabricmc.api.ModInitializer;
 import net.gitdunk.MiningDim.block.ModBlocks;
 import net.gitdunk.MiningDim.item.ModItems;
+import net.gitdunk.MiningDim.world.dimension.ModDimensions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,7 @@ public class MiningDim implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModDimensions.register();
 	}
 }

@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Gitdunk's Mining Dimension",
-  "description": "A mod designed to mimic the ATM mining dimension without any dependencies.",
+  "description": "A mod designed to mimic the ATM mining dimension without any dependencies, it uses a portal instead of a teleporter though.",
   "authors": [
     "Me!"
   ],

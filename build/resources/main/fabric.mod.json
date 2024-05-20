@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "gitdminingdim",
-  "version": "1.0.0-1.18.x",
+  "version": "0.0.1-1.18.x",
 
   "name": "Gitdunk's Mining Dimension",
-  "description": "A mod designed to mimic the ATM mining dimension without any dependencies.",
+  "description": "A mod designed to mimic the ATM mining dimension without any dependencies, it uses a portal instead of a teleporter though.",
   "authors": [
     "Me!"
   ],

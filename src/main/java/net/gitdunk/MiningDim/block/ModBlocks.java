@@ -8,15 +8,16 @@ import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
     public static final Block PORTAL_BASE = registerBlock("portal_base",
-            new Block(FabricBlockSettings.of(Material.WOOL).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(6f).requiresTool().sounds(BlockSoundGroup.STONE)), ItemGroup.MISC);
     public static final Block PORTAL = registerBlock("portal",
-            new Block(FabricBlockSettings.of(Material.PORTAL).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.PORTAL).strength(9999f)), ItemGroup.MISC);
 
 
 

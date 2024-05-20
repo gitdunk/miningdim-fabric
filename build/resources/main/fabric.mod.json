@@ -14,16 +14,16 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/gitdminingdim/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.gitdunk.miningdim.miningdim"
+      "net.gitdunk.MiningDim.MiningDim"
     ]
   },
   "mixins": [
-    "miningdim.mixins.json"
+    "gitdminingdim.mixins.json"
   ],
 
   "depends": {

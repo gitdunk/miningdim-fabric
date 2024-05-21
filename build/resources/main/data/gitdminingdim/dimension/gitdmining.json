@@ -6,6 +6,7 @@
       "biome": "minecraft:plains",
       "lakes": false,
       "features": false,
+      "ore_veins_enabled": true,
       "layers": [
         {
           "block": "minecraft:bedrock",
@@ -13,7 +14,7 @@
         },
         {
           "block": "minecraft:deepslate",
-          "height": 128
+          "height": 64
         },
         {
           "block": "minecraft:stone",

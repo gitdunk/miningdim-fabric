@@ -1,5 +1,6 @@
-[16:04:05] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.2 with Fabric Loader 0.15.11
-[16:04:05] [main/INFO] (FabricLoader) Loading 51 mods:
+[16:27:56] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.2 with Fabric Loader 0.15.11
+[16:27:56] [main/INFO] (FabricLoader) Loading 58 mods:
+	- architectury 4.12.94
 	- fabric-api 0.77.0+1.18.2
 	- fabric-api-base 0.4.5+64b7c69360
 	- fabric-api-lookup-api-v1 1.6.3+2373a54560
@@ -48,15 +49,21 @@
 	- fabric-transfer-api-v1 1.6.4+f4563ac860
 	- fabric-transitive-access-wideners-v1 1.1.0+e747827960
 	- fabricloader 0.15.11
+	- forgeconfigapiport 3.2.4
+	   |-- com_electronwill_night-config_core 3.6.5
+	   \-- com_electronwill_night-config_toml 3.6.5
 	- gitdminingdim 0.0.1-1.18.x
 	- java 17
 	- minecraft 1.18.2
-[16:04:05] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/red/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[16:04:05] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[16:04:05] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[16:04:05] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[16:04:13] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:04:13] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+	- scannable 1.7.7
+	   \-- team_reborn_energy 2.2.0
+	- tooltipfix 1.0.4-1.18
+[16:27:59] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/red/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[16:28:00] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[16:28:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[16:28:00] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[16:28:08] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:28:08] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.3.39.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.3.39.jar:?]
@@ -74,13 +81,44 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.3.39.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.3.39.jar:?]
 	... 9 more
-[16:04:13] [Render thread/INFO] (Minecraft) Setting user: Player188
-[16:04:14] [Render thread/INFO] (gitdminingdim) Registering Mod Items for miningdim
-[16:04:14] [Render thread/INFO] (gitdminingdim) Registering ModBlocks for gitdminingdim
-[16:04:14] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[16:04:14] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
-[16:04:15] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
-[16:04:17] [Render thread/WARN] (Minecraft) ERROR : Couldn't load Narrator library
+[16:28:08] [Render thread/INFO] (Minecraft) Setting user: Player799
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Configuration file /home/red/Games/personal modding projects/miningdim-fabric/run/config/scannable-client.toml is not correct. Correcting
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key blockColors was corrected from null to its default, []. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key blockTagColors was corrected from null to its default, [c:diamond_ores=0x5cdbd5, c:gold_ores=0xfaee4d, c:iron_ores=0x664c33, c:nickel_ores=0x6699d8, c:tin_ores=0x4c7f99, c:coal_ores=0x4c4c4c, c:lead_ores=0x4c3e5c, c:redstone_ores=0x993333, c:copper_ores=0x9f5224, c:platinum_ores=0xd1b1a1, c:silver_ores=0x999999, c:quartz_ores=0xfffcf5, c:emerald_ores=0xd93a, c:lapis_ores=0x4a80ff]. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key fluidColors was corrected from null to its default, []. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key fluidTagColors was corrected from null to its default, [minecraft:lava=0x9f5224, minecraft:water=0x4040ff]. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Configuration file /home/red/Games/personal modding projects/miningdim-fabric/run/config/scannable-common.toml is not correct. Correcting
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.useEnergy was corrected from null to its default, true. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCapacityScanner was corrected from null to its default, 5000. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleRange was corrected from null to its default, 100. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleAnimal was corrected from null to its default, 25. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleMonster was corrected from null to its default, 50. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleOreCommon was corrected from null to its default, 75. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleOreRare was corrected from null to its default, 100. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleBlock was corrected from null to its default, 100. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleFluid was corrected from null to its default, 50. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key energy.energyCostModuleEntity was corrected from null to its default, 75. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key general.baseScanRadius was corrected from null to its default, 64. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key general.scanStayDuration was corrected from null to its default, 10000. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key blocks.ignoredBlocks was corrected from null to its default, [minecraft:command_block]. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key blocks.ignoredBlockTags was corrected from null to its default, []. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key ores was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key ores.commonOreBlocks was corrected from null to its default, [minecraft:clay]. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key ores.commonOreBlockTags was corrected from null to its default, [c:redstone_ores, c:coal_ores, c:iron_ores, c:quartz_ores, c:copper_ores, c:tin_ores]. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key ores.rareOreBlocks was corrected from null to its default, [minecraft:glowstone]. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key ores.rareOreBlockTags was corrected from null to its default, []. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
+[16:28:09] [Render thread/WARN] (ForgeConfigSpec) Incorrect key fluids.ignoredFluidTags was corrected from null to its default, []. 
+[16:28:09] [Render thread/INFO] (gitdminingdim) Registering Mod Items for miningdim
+[16:28:09] [Render thread/INFO] (gitdminingdim) Registering ModBlocks for gitdminingdim
+[16:28:09] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[16:28:09] [Render thread/INFO] (NetworkManagerImpl) Registering S2C receiver with id architectury:spawn_entity_packet
+[16:28:10] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[16:28:11] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
+[16:28:12] [Render thread/WARN] (Minecraft) ERROR : Couldn't load Narrator library
 java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
 libflite.so.1: cannot open shared object file: No such file or directory
 libflite.so.1: cannot open shared object file: No such file or directory
@@ -147,112 +185,135 @@ Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/ho
 		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.15.11.jar:?]
 		at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.15.11.jar:?]
 		at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[16:04:17] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Containers (v0), Fabric Data Generation API (v1), Fabric Crash Report Info (v1), Fabric Item Groups (v0), Fabric Resource Loader (v0), Fabric Item API (v1), Fabric Models (v0), Fabric Loot API (v2), Fabric Lifecycle Events (v1), Fabric Transfer API (v1), Fabric API, Fabric Key Bindings (v0), Fabric API Lookup API (v1), Fabric Transitive Access Wideners (v1), Fabric Commands (v0), Fabric Events Interaction (v0), Fabric Registry Sync (v0), Fabric BlockRenderLayer Registration (v1), Gitdunk's Mining Dimension, Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Game Test API (v1), Fabric Loot Tables (v1), Fabric Rendering Data Attachment (v1), Fabric Key Binding API (v1), Fabric Biome API (v1), Fabric Command API (v1), Fabric Rendering (v0), Fabric API Base, Fabric Screen API (v1), Fabric Dimensions API (v1), Fabric Networking API (v1), Fabric Renderer API (v1), Fabric Renderer Registries (v1), Fabric Events Lifecycle (v0), Fabric Loader, Fabric Convention Tags, Fabric Rendering Fluids (v1), Fabric Networking (v0), Fabric Mining Level API (v1), Fabric Content Registries (v0), Fabric Rendering (v1), Fabric Renderer - Indigo, Fabric Resource Conditions API (v1), Fabric Particles (v1), Fabric Game Rule API (v1), Fabric Object Builder API (v1), Fabric Entity Events (v1))
-[16:04:17] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
-[16:04:19] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[16:04:21] [Render thread/INFO] (Minecraft) OpenAL initialized on device JACK Default
-[16:04:21] [Render thread/INFO] (Minecraft) Sound engine started
-[16:04:21] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[16:04:21] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[16:04:21] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[16:04:21] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[16:04:21] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[16:04:21] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[16:04:21] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16:04:23] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[16:04:23] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16:04:23] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16:04:23] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
-[16:06:45] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
-[16:06:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:06:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:06:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:06:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:06:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:06:46] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[16:06:46] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
-[16:08:09] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
-[16:08:10] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:10] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:10] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:08:10] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:08:10] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:10] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[16:08:10] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
-[16:08:17] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
-[16:08:17] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:17] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:17] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:08:17] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:08:17] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:18] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[16:08:18] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
-[16:08:19] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
-[16:08:19] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:19] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:19] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:08:19] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:08:19] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:08:19] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[16:08:19] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
-[16:08:20] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:08:20] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 2.021 ms
-[16:08:20] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.2
-[16:08:20] [Server thread/INFO] (Minecraft) Generating keypair
-[16:08:21] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[16:08:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[16:08:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[16:08:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[16:08:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
-[16:08:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
-[16:08:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
-[16:08:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 18%
-[16:08:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 23%
-[16:08:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 23%
-[16:08:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 24%
-[16:08:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 60%
-[16:08:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 67%
-[16:08:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 67%
-[16:08:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 67%
-[16:08:28] [Render thread/INFO] (Minecraft) Time elapsed: 6836 ms
-[16:08:28] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[16:08:28] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[16:08:29] [Server thread/INFO] (Minecraft) Player188[local:E:f9e6717f] logged in with entity id 37 at (-4.5, -60.0, -5.5)
-[16:08:29] [Server thread/INFO] (Minecraft) Player188 joined the game
-[16:08:30] [Render thread/INFO] (Minecraft) Loaded 0 advancements
-[16:08:32] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:08:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:08:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
-[16:08:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16:08:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16:09:01] [Server thread/INFO] (Minecraft) [Player188: Teleported Player188 to -4.500000, 500.000000, -5.500000]
-[16:09:01] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:09:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:09:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
-[16:09:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16:09:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16:09:01] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player188 to -4.500000, 500.000000, -5.500000
-[16:09:58] [Server thread/INFO] (Minecraft) [Player188: Teleported Player188 to -4.500000, 500.000000, -5.500000]
-[16:09:58] [Render thread/INFO] (Minecraft) [CHAT] Teleported Player188 to -4.500000, 500.000000, -5.500000
-[16:10:11] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[16:10:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:10:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
-[16:10:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16:10:11] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16:10:12] [Server thread/INFO] (Minecraft) Player188 lost connection: Disconnected
-[16:10:12] [Server thread/INFO] (Minecraft) Player188 left the game
-[16:10:12] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[16:10:12] [Server thread/INFO] (Minecraft) Stopping server
-[16:10:12] [Server thread/INFO] (Minecraft) Saving players
-[16:10:12] [Server thread/INFO] (Minecraft) Saving worlds
-[16:10:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16:10:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
-[16:10:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16:10:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16:10:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[16:10:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (gitdmining): All chunks are saved
-[16:10:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:10:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:10:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[16:10:15] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
-[16:10:16] [Render thread/INFO] (Minecraft) Stopping!
+[16:28:12] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Data Generation API (v1), Fabric Lifecycle Events (v1), Fabric Events Interaction (v0), Fabric Resource Conditions API (v1), Fabric Renderer API (v1), Fabric Containers (v0), Fabric Renderer - Indigo, Fabric Command API (v1), Fabric Textures (v0), Fabric Commands (v0), Fabric Screen Handler API (v1), Fabric Resource Loader (v0), Fabric Registry Sync (v0), Fabric Models (v0), Fabric Crash Report Info (v1), Fabric Game Rule API (v1), Fabric Particles (v1), Fabric Key Bindings (v0), Fabric API Base, Fabric Dimensions API (v1), Fabric Rendering (v1), ToolTip Fix, Fabric BlockRenderLayer Registration (v1), Fabric Biome API (v1), Scannable, Fabric Transitive Access Wideners (v1), Fabric Rendering Data Attachment (v1), Fabric Loot API (v2), Fabric Rendering (v0), Forge Config API Port, Energy, Fabric Mining Level API (v1), Fabric Content Registries (v0), Fabric Entity Events (v1), Fabric Rendering Fluids (v1), Fabric Item Groups (v0), Fabric Transfer API (v1), Fabric Networking (v0), Gitdunk's Mining Dimension, Fabric Events Lifecycle (v0), Fabric Convention Tags, Fabric Networking API (v1), Fabric API Lookup API (v1), Fabric Loader, Fabric Loot Tables (v1), Fabric Key Binding API (v1), Fabric Item API (v1), Fabric Renderer Registries (v1), Fabric API, Fabric Game Test API (v1), Fabric Object Builder API (v1), Fabric Screen API (v1))
+[16:28:13] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
+[16:28:13] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[16:28:16] [Render thread/INFO] (Minecraft) OpenAL initialized on device JACK Default
+[16:28:16] [Render thread/INFO] (Minecraft) Sound engine started
+[16:28:17] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[16:28:17] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16:28:17] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:28:17] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:28:17] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:28:17] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:28:17] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:28:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:28:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:28:19] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:28:19] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
+[16:28:29] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
+[16:28:31] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:28:31] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:28:31] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:28:31] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:28:31] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:28:32] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[16:28:33] [Render thread/INFO] (Minecraft) Loaded 1151 advancements
+[16:29:46] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
+[16:29:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:29:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:29:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:29:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:29:46] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:29:46] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[16:29:46] [Render thread/INFO] (Minecraft) Loaded 1151 advancements
+[16:29:47] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:29:47] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 2.093 ms
+[16:29:47] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.2
+[16:29:47] [Server thread/INFO] (Minecraft) Generating keypair
+[16:29:47] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[16:29:49] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:29:49] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:29:49] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:29:49] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:29:49] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:29:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:29:50] [Render thread/INFO] (Minecraft) Preparing spawn area: 2%
+[16:29:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 10%
+[16:29:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 22%
+[16:29:52] [Render thread/INFO] (Minecraft) Preparing spawn area: 44%
+[16:29:53] [Render thread/INFO] (Minecraft) Time elapsed: 5429 ms
+[16:29:53] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[16:29:53] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[16:29:54] [Netty Local Client IO #0/INFO] (NetworkHooks) Connected to a modded server.
+[16:29:54] [Server thread/INFO] (Minecraft) Player799[local:E:3ebac746] logged in with entity id 184 at (11.5, 126.86814040604251, 7.5)
+[16:29:54] [Server thread/INFO] (Minecraft) Player799 joined the game
+[16:29:55] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[16:30:11] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[16:31:08] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:31:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:31:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
+[16:31:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:31:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:31:12] [Server thread/INFO] (Minecraft) Player799 lost connection: Disconnected
+[16:31:12] [Server thread/INFO] (Minecraft) Player799 left the game
+[16:31:12] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[16:31:12] [Server thread/INFO] (Minecraft) Stopping server
+[16:31:12] [Server thread/INFO] (Minecraft) Saving players
+[16:31:12] [Server thread/INFO] (Minecraft) Saving worlds
+[16:31:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:31:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
+[16:31:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:31:14] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:31:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[16:31:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (gitdmining): All chunks are saved
+[16:31:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:31:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:31:14] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[16:31:15] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
+[16:31:40] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
+[16:31:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:31:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:31:41] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:41] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[16:31:41] [Render thread/INFO] (Minecraft) Loaded 1151 advancements
+[16:31:42] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: MiningDim in mod ID gitdminingdim
+[16:31:43] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:43] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:43] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:31:43] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:31:43] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:31:43] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[16:31:43] [Render thread/INFO] (Minecraft) Loaded 1151 advancements
+[16:31:43] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:31:43] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 214.4 μs
+[16:31:43] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.2
+[16:31:43] [Server thread/INFO] (Minecraft) Generating keypair
+[16:31:43] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[16:31:44] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:31:44] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:31:44] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[16:31:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 1%
+[16:31:45] [Render thread/INFO] (Minecraft) Preparing spawn area: 20%
+[16:31:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 35%
+[16:31:46] [Render thread/INFO] (Minecraft) Time elapsed: 2968 ms
+[16:31:46] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[16:31:46] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[16:31:46] [Netty Local Client IO #1/INFO] (NetworkHooks) Connected to a modded server.
+[16:31:46] [Server thread/INFO] (Minecraft) Player799[local:E:f434dd39] logged in with entity id 397 at (12.58174847314337, 125.0, 8.846559961416084)
+[16:31:46] [Server thread/INFO] (Minecraft) Player799 joined the game
+[16:31:47] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[16:31:57] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:31:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:31:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
+[16:31:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:31:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:31:58] [Server thread/INFO] (Minecraft) Player799 lost connection: Disconnected
+[16:31:58] [Server thread/INFO] (Minecraft) Player799 left the game
+[16:31:58] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[16:31:58] [Server thread/INFO] (Minecraft) Stopping server
+[16:31:58] [Server thread/INFO] (Minecraft) Saving players
+[16:31:58] [Server thread/INFO] (Minecraft) Saving worlds
+[16:32:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:32:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/gitdminingdim:gitdmining
+[16:32:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:32:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:32:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[16:32:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (gitdmining): All chunks are saved
+[16:32:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:32:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:32:01] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[16:32:01] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
+[16:32:03] [Render thread/INFO] (Minecraft) Stopping!

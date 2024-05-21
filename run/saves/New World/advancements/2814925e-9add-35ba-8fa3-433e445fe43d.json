@@ -1,0 +1,15 @@
+{
+  "scannable:recipes/scannable.common/blank_module": {
+    "criteria": {
+      "has_scanner": "2024-05-21 16:30:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-05-21 16:29:55 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

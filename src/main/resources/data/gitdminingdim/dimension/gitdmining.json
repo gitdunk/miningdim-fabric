@@ -6,7 +6,7 @@
       "biome": "minecraft:plains",
       "lakes": false,
       "features": false,
-      "ore_veins_enabled": false,
+      "ore_veins_enabled": true,
       "layers": [
         {
           "block": "minecraft:bedrock",

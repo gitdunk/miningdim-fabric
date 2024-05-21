@@ -6,27 +6,27 @@
       "biome": "minecraft:plains",
       "lakes": false,
       "features": false,
-      "ore_veins_enabled": true,
+      "ore_veins_enabled": false,
       "layers": [
         {
-          "block": "minecraft:grass_block",
-          "height": 255
-        },
-        {
-          "block": "minecraft:stone",
-          "height": 254
+          "block": "minecraft:bedrock",
+          "height": 1
         },
         {
           "block": "minecraft:deepslate",
-          "height": 190
+          "height": 64
         },
         {
-          "block": "minecraft:netherrack",
-          "height": 126
+          "block": "minecraft:stone",
+          "height": 119
         },
         {
-          "block": "minecraft:end_stone",
-          "height": 62
+          "block": "minecraft:dirt",
+          "height": 4
+        },
+        {
+          "block": "minecraft:grass_block",
+          "height": 1
         }
       ],
       "structure_overrides": []

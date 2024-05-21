@@ -4,7 +4,7 @@
   "version": "0.0.1-1.18.x",
 
   "name": "Gitdunk's Mining Dimension",
-  "description": "A mod designed to mimic the ATM mining dimension without any dependencies, it uses a portal instead of a teleporter though.",
+  "description": "A mod designed to mimic the ATM mining dimension without ATM.",
   "authors": [
     "Me!"
   ],

@@ -2,7 +2,6 @@ package net.gitdunk.MiningDim.world.dimension;
 
 import net.gitdunk.MiningDim.MiningDim;
 import net.gitdunk.MiningDim.block.ModBlocks;
-import net.gitdunk.MiningDim.item.ModItems;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;

@@ -58,7 +58,7 @@
                 "absolute": -64
               },
               "max_inclusive": {
-                "absolute": 128
+                "absolute": 120
               }
             }
           }
@@ -107,7 +107,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -156,7 +156,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -214,7 +214,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -263,7 +263,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -312,7 +312,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -352,7 +352,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -392,7 +392,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -441,7 +441,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }

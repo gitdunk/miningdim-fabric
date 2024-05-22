@@ -58,7 +58,7 @@
                 "absolute": -64
               },
               "max_inclusive": {
-                "absolute": 128
+                "absolute": 120
               }
             }
           }
@@ -67,7 +67,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 9,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -107,7 +107,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -116,7 +116,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 20,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -156,7 +156,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -165,7 +165,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 10,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -214,7 +214,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -223,7 +223,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 12,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -263,7 +263,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -272,7 +272,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 12,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -312,7 +312,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -321,7 +321,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 14,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -352,7 +352,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -361,7 +361,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 6,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -392,7 +392,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }
@@ -401,7 +401,7 @@
       "feature": {
         "type": "minecraft:ore",
         "config": {
-          "size": 17,
+          "size": 6,
           "discard_chance_on_air_exposure": 0,
           "targets": [
             {
@@ -441,7 +441,7 @@
               "absolute": -64
             },
             "max_inclusive": {
-              "absolute": 128
+              "absolute": 120
             }
           }
         }

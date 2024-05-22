@@ -1,6 +1,11 @@
 package net.gitdunk.MiningDim.world.dimension;
 
 import net.gitdunk.MiningDim.MiningDim;
+import net.gitdunk.MiningDim.block.ModBlocks;
+import net.gitdunk.MiningDim.item.ModItems;
+import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
@@ -15,5 +20,13 @@ public class ModDimensions {
 
     public static void register() {
         MiningDim.LOGGER.debug("Registering ModDimensions for " + MiningDim.MOD_ID);
+
+        CustomPortalBuilder.beginPortal()
+                .frameBlock(ModBlocks.PORTAL_BASE)
+                .destDimID(GITDMINING_DIMENSION_KEY.getValue())
+                .tintColor(0,23, 70)
+                .lightWithItem(Items.DIAMOND_PICKAXE)
+                .onlyLightInOverworld()
+                .registerPortal();
     }
 }

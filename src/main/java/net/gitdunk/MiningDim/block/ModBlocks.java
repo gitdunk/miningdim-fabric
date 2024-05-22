@@ -15,10 +15,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block PORTAL_BASE = registerBlock("portal_base",
-            new Block(FabricBlockSettings.of(Material.WOOL).strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)), ItemGroup.MISC);
-    public static final Block PORTAL = registerBlock("portal",
-            new Block(FabricBlockSettings.of(Material.PORTAL).strength(999f).sounds(BlockSoundGroup.GLASS)), ItemGroup.MISC);
-
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(3f).requiresTool().sounds(BlockSoundGroup.WOOL)), ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

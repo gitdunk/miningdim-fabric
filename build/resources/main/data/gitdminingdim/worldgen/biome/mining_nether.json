@@ -1,0 +1,25 @@
+{
+  "temperature": 0,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "nether",
+  "effects": {
+    "sky_color": 7254527,
+    "fog_color": 6840176,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:ore_gold_deltas",
+      "minecraft:ore_quartz_deltas",
+      "minecraft:ore_ancient_debris_large",
+      "minecraft:ore_debris_small"
+    ]
+  ]
+}

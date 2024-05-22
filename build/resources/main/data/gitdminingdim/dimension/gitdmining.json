@@ -3,14 +3,22 @@
   "generator": {
     "type": "minecraft:flat",
     "settings": {
-      "biome": "minecraft:plains",
+      "biome": "gitdminingdim:mining_overworld",
+      "features": true,
+
       "lakes": false,
-      "features": false,
-      "ore_veins_enabled": true,
       "layers": [
         {
           "block": "minecraft:bedrock",
           "height": 1
+        },
+        {
+          "block": "minecraft:end_stone",
+          "height": 6
+        },
+        {
+          "block": "minecraft:netherrack",
+          "height": 112
         },
         {
           "block": "minecraft:deepslate",
@@ -31,5 +39,4 @@
       ],
       "structure_overrides": []
     }
-  }
-}
+  }}

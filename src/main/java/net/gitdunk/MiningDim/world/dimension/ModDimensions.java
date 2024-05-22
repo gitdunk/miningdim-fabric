@@ -24,7 +24,7 @@ public class ModDimensions {
         CustomPortalBuilder.beginPortal()
                 .frameBlock(ModBlocks.PORTAL_BASE)
                 .destDimID(GITDMINING_DIMENSION_KEY.getValue())
-                .tintColor(0,23, 70)
+                .tintColor(0,0, 255)
                 .lightWithItem(Items.DIAMOND_PICKAXE)
                 .onlyLightInOverworld()
                 .registerPortal();

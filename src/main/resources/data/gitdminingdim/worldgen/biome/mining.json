@@ -14,21 +14,439 @@
   "carvers": {},
   "features": [
     [
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_iron_middle",
-    "minecraft:ore_copper_large",
-      "minecraft:ore_gold_lower"
-    ],
-    "minecraft:ore_diamond",
-    "minecraft:ore_diamond_large",
-    "minecraft:ore_lapis",
-    [
-      "minecraft:ore_gold_nether",
-      "minecraft:ore_quartz_nether"
-    ],
-    [
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower"
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 17,
+            "discard_chance_on_air_exposure": 0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:deepslate_ore_replaceables"
+                },
+                "state": {
+                  "Name": "minecraft:deepslate_coal_ore"
+                }
+              },
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:stone_ore_replaceables"
+                },
+                "state": {
+                  "Name": "minecraft:coal_ore"
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 20
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:height_range",
+            "height": {
+              "type": "minecraft:trapezoid",
+              "min_inclusive": {
+                "absolute": -64
+              },
+              "max_inclusive": {
+                "absolute": 128
+              }
+            }
+          }
+        ]
+      },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:deepslate_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:deepslate_iron_ore"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:stone_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:iron_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:deepslate_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:deepslate_copper_ore"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:stone_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:copper_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:deepslate_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:deepslate_gold_ore"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:stone_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:gold_ore"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:base_stone_nether"
+              },
+              "state": {
+                "Name": "minecraft:nether_gold_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:deepslate_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:deepslate_diamond_ore"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:stone_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:diamond_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:deepslate_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:deepslate_lapis_ore"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:stone_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:lapis_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:base_stone_nether"
+              },
+              "state": {
+                "Name": "minecraft:nether_quartz_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:base_stone_nether"
+              },
+              "state": {
+                "Name": "minecraft:ancient_debris"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    },{
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "size": 17,
+          "discard_chance_on_air_exposure": 0,
+          "targets": [
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:deepslate_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:deepslate_emerald_ore"
+              }
+            },
+            {
+              "target": {
+                "predicate_type": "minecraft:tag_match",
+                "tag": "minecraft:stone_ore_replaceables"
+              },
+              "state": {
+                "Name": "minecraft:emerald_ore"
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 20
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "type": "minecraft:height_range",
+          "height": {
+            "type": "minecraft:trapezoid",
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 128
+            }
+          }
+        }
+      ]
+    }
     ]
-]
+  ]
 }

@@ -417,3 +417,4 @@ Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/ho
 [14:21:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [14:21:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
 [14:21:16] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
+[14:22:23] [Render thread/INFO] (Minecraft) Stopping!

@@ -3004,3 +3004,4 @@ com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown or incomplete co
 [14:21:16] [Server thread/DEBUG] (net.minecraftforge.fml.loading.FileUtils) Found existing server config directory directory : /home/red/Games/personal modding projects/miningdim-fabric/run/saves/New World (3)/serverconfig
 [14:21:16] [Server thread/DEBUG] (net.minecraftforge.fml.config.ConfigTracker) Unloading configs type SERVER
 [14:21:16] [Render thread/INFO] (gitdminingdim) This line is printed by an example mod mixin!
+[14:22:23] [Render thread/INFO] (net.minecraft.client.MinecraftClient) Stopping!

@@ -13,14 +13,13 @@
           "height": 1
         },
         {
-          "block": "minecraft:deepslate",
-          "height": 63
-        },
-        {
           "block": "minecraft:netherrack",
           "height": 63
         },
-
+        {
+          "block": "minecraft:deepslate",
+          "height": 63
+        },
         {
           "block": "minecraft:stone",
           "height": 63

@@ -20,7 +20,7 @@ jobs:
         contents: write
     steps:
       - name: make gradle executable
-      - run: chmod +rwx ./gradlew
+        run: chmod +rwx ./gradlew
   build:
 
     runs-on: ubuntu-latest
